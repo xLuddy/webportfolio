@@ -1,0 +1,61 @@
+* {	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Silkscreen', cursive;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	background: rgb(44,130,151);
+	background: linear-gradient(90deg, rgba(44,130,151,1) 0%, rgba(50,101,147,1) 31%, rgba(54,81,144,1) 49%, rgba(229,36,33,1) 61%, rgba(186,62,51,1) 96%, rgba(74,52,39,1) 100%);
+}
+
+#landing {
+	background-image: 
+		linear-gradient(rgba(245, 246, 252, 0.30), rgba(250, 19, 13, 0.73)),
+		url(https://images.pexels.com/photos/10188205/pexels-photo-10188205.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+h1,h2,h3,h4{
+	font-family: 'Rubik Burned', cursive;
+}
+
+
+#tools {
+
+	background-color: rgba(239, 239,240, 0.60);
+
+
+}
+
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+}
+
+.fab {
+	font-size: 2rem;
+}
+
+nav #luddylogo {
+	height: 8vh;
+}
+
+nav {
+	background-color: rgba(239, 239,240, 0.25);
+}
+
+.nav-item{
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 3;
+}
