@@ -17,7 +17,7 @@ body {
 
 #landing {
 	background-image: 
-		linear-gradient(rgba(245, 246, 252, 0.30), rgba(250, 19, 13, 0.73)),
+		linear-gradient(rgba(245, 246, 252, 0.40), rgba(250, 19, 13, 0.75)),
 		url(https://images.pexels.com/photos/10188205/pexels-photo-10188205.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -38,13 +38,11 @@ h1,h2,h3,h4{
 }
 
 #gmap_canvas {
-	height: 60vh;
+	height: 40vh;
 	width: 100%;
+	border: 1px solid black;
 }
 
-.fab {
-	font-size: 2rem;
-}
 
 nav #luddylogo {
 	height: 8vh;
@@ -59,3 +57,12 @@ nav {
 	font-size: 1.5rem;
 	margin: 3;
 }
+
+.fab {
+	font-size: 3rem;
+}
+
+.fa-facebook, .fa-linkedin {
+	color: red;
+}
+

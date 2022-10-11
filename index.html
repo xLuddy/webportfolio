@@ -27,6 +27,9 @@
 	                    <a href="#landing" class="nav-link text-white mr-3">Home</a>
 	                </li>
 	                <li class="nav-item">
+	                    <a href="#landing" class="nav-link text-dark mr-3">About Me</a>
+	                </li>
+	                <li class="nav-item">
 	                    <a href="#projects" class="nav-link text-dark mr-3">Projects</a>
 	                </li>
 	                <li class="nav-item">
@@ -51,7 +54,9 @@
                     <h1 class="mt-2 text-center text-md-left">Charloyd Salum</h1>
                     <h2 class="my-3 text-center text-md-left">Web Developer</h2>
                     <p class="text-justify">
-                        Charloyd Salum aka Luddy is a blank-year-old web developer from Makati City. He is 3rd year undergraduate in STI Global City with course of Bachelor of Science in Information Technology and a graduate of 2 years course under Toyota Motor Philippines School of Technology. He is enthusiastic with competitive games such as Valorant and DoTA2. 
+                        I'm developer and also, a gamer!
+                        Competitive in life and in game. Knowledgeable in HTML, CSS, Bootstrap, JS and ruby. I'm hungry with knowledge and always aim for the top. 
+
                     </p>
                 </div>
             </div>
@@ -60,37 +65,39 @@
 			<!-- My Projects -->
 			<h1 class="mt-5 mb-1 text-center text-light" >My Projects</h1>
 			<div class="card-deck my-5 justify-content-center text-light" id="projects" >
-			  <div class="card col-md-3 px-0 bg-transparent">
-			    <img src="./images/food.png" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title">Online Business</h5>
-			      <p class="card-text">
-			          This page has been created for business purposes. In the future, I will make this to happen to help my existing business. It's about E-commerce.
-			      </p>
-			      <p class="card-text"><small class="text-light">Last updated 1 year ago</small></p>
-			    </div>
-			  </div>
-			  <div class="card col-md-3 px-0 bg-transparent">
-			    <img src="./images/food2.png" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title">Blog</h5>
-			      <p class="card-text">
+			  	<div class="card col-md-3 px-0 bg-transparent">
+				    <a href="https://www.facebook.com/profile.php?id=100064836606501">
+				    	<img src="./images/food.png" class="card-img-top" alt="...">
+				    </a>
+				    <div class="card-body">
+				      	<h5 class="card-title">Online Business</h5>
+				      	<p class="card-text">
+				        	This page has been created for business purposes. In the future, I will make this to happen to help my existing business. It's about E-commerce.
+				      	</p>
+				      	<p class="card-text"><small class="text-light">Last updated 1 year ago</small></p>
+				    </div>
+			  	</div>
+			  	<div class="card col-md-3 px-0 bg-transparent">
+			    	<img src="./images/food2.png" class="card-img-top" alt="...">
+			    	<div class="card-body">
+			      	<h5 class="card-title">Blog</h5>
+			      	<p class="card-text">
 			            A blog (a shortened version of “weblog”) is an online journal or informational website displaying information in reverse chronological order, with the latest posts appearing first, at the top.
-			      </p>
-			      <p class="card-text"><small class="text-light">Last updated 10 mins ago</small></p>
-			    </div>
-			  </div>
-			  <div class="card col-md-3 px-0 bg-transparent">
-			    <img src="./images/food3.png" class="card-img-top" alt="...">
-			    <div class="card-body">
-			      <h5 class="card-title">Online Booking System</h5>
-			      <p class="card-text">
+			      	</p>
+			      	<p class="card-text"><small class="text-light">Last updated 10 mins ago</small></p>
+			    	</div>
+			  	</div>
+			  	<div class="card col-md-3 px-0 bg-transparent">
+			    	<img src="./images/food3.png" class="card-img-top" alt="...">
+			    	<div class="card-body">
+			      	<h5 class="card-title">Online Booking System</h5>
+			      	<p class="card-text">
 			          What is an online booking system?
 			          Put simply, an online booking system is a software solution used for reservation management.
-			      </p>
-			      <p class="card-text"><small class="text-light">Last updated 3 mons ago</small></p>
-			    </div>
-			  </div>
+			      	</p>
+			      	<p class="card-text"><small class="text-light">Last updated 3 mons ago</small></p>
+			    	</div>
+			  	</div>
 			</div>
 
             <!-- Tools Start-->
@@ -155,7 +162,7 @@
             <!-- Tools end -->
 
 			<!-- Contact Start -->
-			<h1 class="text-center my-5" id="contact">Contact</h1>
+			<h1 class="text-center my-5" id="contact">How to Contact Me</h1>
 
 			<div class="row d-md-none justify-content-center  mb-5">
 			    <div class="col-3 col-md-1 d-flex justify-content-center">
@@ -173,9 +180,9 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 my-4">
-				    <h1 class="text-center my-4">Message Us</h1>
-				    <form>
-						<div class="form-group">
+				    <h1 class="text-center my-4">Message Me</h1>
+				    <form id="msgform" class="m-3 p-2 mt-md-5 p-md-3 border border-dark">
+						<div class="form-group my-4">
 						<label>Full Name</label>
 						<input type="text" class="form-control">
 						</div>
@@ -191,29 +198,34 @@
 					</form>
 				</div>	
 			    <div class="col-md-6 my-4">
-			        <h1 class="text-center my-4">Visit Us</h1>
-			        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=block%20181%20lot%2001%20jasmin%20street%20pembo%20makati%20city&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			        <h1 class="text-center my-4">Contact Information</h1>
+			        <iframe class="my-4" id="gmap_canvas" src="https://maps.google.com/maps?q=block%20181%20lot%2001%20jasmin%20st.%20pembo%20makati%20city&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+			        <div class="text-justify ml-2 ml-md-5">
+				        <p><i class="fas fa-map-marker-alt"></i> Block 181 Lot 01 Jasmin Street Pembo Makati City, Metro MNL</p>
+				        <p><i class="fa fa-envelope" aria-hidden="true"></i> salumcharloyd@google.com</p>
+				        <p><i class="fas fa-phone-square"></i> 09163364378</p>
+			        </div>
 			    </div>
 			</div>
 
 			<div class="row d-none d-md-flex justify-content-center mt-5">
 			    <div class="col-3 col-md-1 text-center">
-			    	<a href = "https://www.facebook.com/xLuddy/" target = "_self">
-			        	<i class="fab fa-facebook"></i>
+			    	<a href = "https://www.facebook.com/xLuddy/" target = "_blank">
+			        	<i class="fab fa-facebook fa-2xl"></i>
 			        </a>
 			    </div>
 			    <div class="col-3 col-md-1 text-center">
-			        <a href = "https://www.linkedin.com/in/charloyd-salum-8b36a1189/" target = "_self">
+			        <a href = "https://www.linkedin.com/in/charloyd-salum-8b36a1189/" target = "_blank">
 			        	<i class="fab fa-linkedin"></i>
 			        </a>
 			    </div>
 			    <div class="col-3 col-md-1 text-center">
-			    	<a href = "https://gitlab.com/xLuddy/" target = "_self">
+			    	<a href = "https://gitlab.com/xLuddy/" target = "_blank">
 			        	<i class="fab fa-gitlab"></i>
 			        </a>
 			    </div>
 			    <div class="col-3 col-md-1 text-center">
-			    	<a href = "https://github.com/xLuddy" target = "_self">
+			    	<a href = "https://github.com/xLuddy" target = "_blank">
 			        	<i class="fab fa-github"></i>
 			        </a>	
 			    </div>
